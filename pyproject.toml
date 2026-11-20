@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prop-firm-guard"
+version = "1.0.0"
+description = "FTMO 2-Step headroom checker MCP server — daily/total floors, planned-trade check, local MT5 report reader. No PASS/FAIL verdicts, no broker login."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[project.scripts]
+prop-firm-guard = "server:main"
+
+[tool.setuptools]
+py-modules = ["server"]
