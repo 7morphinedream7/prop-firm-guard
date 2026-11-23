@@ -1,5 +1,7 @@
 # Prop Firm Guard
 
+<!-- mcp-name: io.github.7morphinedream7/prop-firm-guard -->
+
 An MCP server that answers one question for an FTMO 2-Step trader:
 **how much room do I have left before I break a rule?**
 
